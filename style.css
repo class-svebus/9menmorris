@@ -1,0 +1,70 @@
+#board{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#outer-square {
+  width: 750px;
+  height: 750px;
+
+  outline-color: black;
+  outline-width: 0.5cm; 
+  outline-style: solid;;
+}
+#middle-square {
+  width: 500px;
+  height: 500px;
+
+  outline-color: black;
+  outline-width: 0.5cm; 
+  outline-style: solid;;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#inner-square {
+  width: 250px;
+  height: 250px;
+
+  outline-color: black;
+  outline-width: 0.5cm; 
+  outline-style: solid;;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+#vertical-line {
+  width: 0.5cm;
+  height: 750px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#horizontal-line {
+  width: 750px;
+  height: 0.5cm;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+} 
+
+#inner-mask {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white; 
+  z-index: 10;
+  pointer-events: none; 
+}
+
