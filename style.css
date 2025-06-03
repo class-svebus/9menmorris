@@ -1,3 +1,7 @@
+body {
+  margin : 0;
+  background-color:pink;
+}
 #board{
   position: absolute;
   top: 50%;
@@ -63,7 +67,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white; 
+  background: pink; 
   z-index: 10;
   pointer-events: none; 
 }
@@ -76,3 +80,4 @@
   position: absolute;
   z-index: 15;
 }
+
