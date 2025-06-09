@@ -5,6 +5,8 @@ const blueButton = document.getElementById('blue');
 const body = document.body;
 const innerMask = document.getElementById('inner-mask');
 const fields =  document.querySelectorAll('.point');
+const theme = document.getElementById('theme');
+const customization = document.getElementById('customization');
 redButton.addEventListener('click', () => {
   body.style.backgroundColor = 'pink';
   innerMask.style.backgroundColor = 'pink';
@@ -24,4 +26,11 @@ blueButton.addEventListener('click', () => {
   body.style.backgroundColor = 'lightblue';
   innerMask.style.backgroundColor = 'lightblue';
   fields.forEach(point => point.style.backgroundColor = 'blue');
+});
+theme.addEventListener('mouseenter', () => {
+  customization.style.display = 'block';
+  
+});
+theme.addEventListener('mouseleave', () => {
+  customization.style.display = 'none';
 });

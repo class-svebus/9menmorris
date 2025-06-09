@@ -4,7 +4,7 @@ body {
 }
 #board{
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -80,4 +80,48 @@ body {
   position: absolute;
   z-index: 15;
 }
+#bar{
+  position: absolute;
+  width: 750px;
+  height: 50px;
+  background-color: darkgrey;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#customization {
+  display: none;
+}
 
+#theme {
+  position: absolute;
+  top: 0;
+  left: 99%;
+  transform: translateX(-150%);
+  width: 1.2cm;
+  height: 1cm;
+  background-color: gray;
+  z-index: 20;
+  color:white
+  
+}
+#customization button {
+  display: block;
+  margin: 8px 0;
+}
+#red{
+  background-color: pink;
+  color: red;
+}
+#green{
+  background-color: lightgreen;
+  color: green;
+}
+#blue{
+  background-color: lightblue;
+  color: blue;
+}
+#coral{
+  background-color: coral;
+  color: black;
+}
